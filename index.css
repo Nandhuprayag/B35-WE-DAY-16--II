@@ -1,0 +1,108 @@
+body{
+    background-color:#4448492b;
+    /* Small Mobile screen */
+    /* @media (max-width: 500px) {
+        body{
+            background: linear-gradient(45deg,black,red);
+        }
+        h1:nth-child(1){
+            display: block;
+        }
+    } */
+
+       /* Mobile Screen */
+       /* @media (min-width: 501px) and (max-width: 650px) {
+        body{
+            background: linear-gradient(45deg,black,green);
+        }
+        h1:nth-child(2){
+            display: block;
+        }
+    } */
+
+    /* Tablet Screen */
+    /* @media (min-width: 651px) and (max-width: 800px) {
+        body{
+            background: linear-gradient(45deg,black,blue);
+        }
+        h1:nth-child(3){
+            display: block;
+        }
+    } */
+
+    /* Laptop Screen */
+    /* @media (min-width: 801px) and (max-width: 1000px) {
+        body{
+            background: linear-gradient(45deg,black,yellow);
+        }
+        h1:nth-child(4){
+            display: block;
+        }
+    } */
+
+    /* x-Large Screen */
+    /* @media (min-width: 1001px){
+        body{
+            background: linear-gradient(45deg,black,purple);
+        }
+        h1:nth-child(5){
+            display: block;
+        }
+    } */
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container{
+    @media (min-width: 801px) and (max-width: 1000px) {
+      
+            background: linear-gradient(45deg,black,yellow);
+        
+        /* h1:nth-child(4){
+            display: block;
+        } */
+    }
+
+
+     /* @media (min-width: 1001px){
+        body{
+            background: linear-gradient(45deg,black,purple);
+        }
+        h1:nth-child(5){
+            display: block;
+        }
+    } */
+}
+button{
+    background-color: #9ad2bf;border-color: cadetblue;
+    padding: 0px 68px;
+}
+h4{
+        color: #1197ca;
+}
+/* Updating the input Field */
+.text
+{
+    /* color: lightgray;border-color: lightgray;
+    border-radius: 2px;padding: 3px 0px */
+    margin: 5px 0px;
+}
+.radio{
+    padding: 0px 8px;
+}
+.checkbox{
+    padding: 0px 8px;
+}
+/* button{
+    margin: 5px 29px;
+} */
+
+input{
+    border: none;
+}
+
+.text-type
+{
+    text-transform: capitalize;
+}
